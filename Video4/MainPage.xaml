@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             x:Class="Video4.MainPage">
+
+    <!-- Creamos un nuevo StackLayout y definimos sus margenes con la propiedad Margin-->
+
+    <StackLayout Margin="20,35,20,20">
+
+        <!-- Creamos un label y definimos el tamaño del texto medio y la horientación del mismo con las propiedades FontZise para el texto, y HorizontalOptions para la orientación del texto -->
+
+        <Label FontSize="Medium" HorizontalOptions="Center">
+
+            <Label.FormattedText>
+
+                <!-- Definimos el contenido que contendra nuestro label y aplicamos diferentes estilos utilizando etiquetas -->
+
+                <FormattedString>
+
+                    <Span TextDecorations="Strikethrough" FontAttributes="Bold" TextColor="Green">Programación orientada a objetos </Span>
+
+                    <Span FontAttributes="Italic" TextColor="Blue"> es un paradigma de la programación </Span>
+
+                    <Span TextColor="Gray" TextDecorations="Strikethrough"> que nos ayuda a obtener mejores resultados </Span>
+
+                </FormattedString>
+
+            </Label.FormattedText>
+
+        </Label>
+
+    </StackLayout>
+
+</ContentPage>
